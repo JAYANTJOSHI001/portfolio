@@ -152,6 +152,31 @@ export const DATA = {
       image: "/resourcify.png",
       video: "",
     },
+    {
+      title: "Scrapcon",
+      href: "https://devfolio.co/projects/scrapcon-8413",
+      dates: "Feb 2025",
+      active: true,
+      description:
+        "To transform the traditional scrap-selling ecosystem in India by connecting customers with verified scrap vendors through a digital platform.",
+      technologies: [
+        "Flutter",
+        "Google Vision API",
+        "Mongodb",
+        "Google Gemini API",
+        "Node.js",
+        "Expres.js",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/gurshaan17/scrapconApp",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/Scrapcon.png",
+      video: "",
+    },
   ],
   hackathons: [
     {
@@ -164,25 +189,25 @@ export const DATA = {
         "/889.webp",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [
+        // {
+        //   title: "Medium Article",
+        //   icon: <Icons.globe className="h-4 w-4" />,
+        //   href: "https://medium.com/make-school/the-winners-of-make-schools-student-app-competition-2017-a6b0e72f190a",
+        // },
         {
-          title: "Medium Article",
+          title: "Devfolio",
           icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://medium.com/make-school/the-winners-of-make-schools-student-app-competition-2017-a6b0e72f190a",
+          href: "https://devfolio.co/projects/scrapcon-8413",
         },
-        {
-          title: "Devpost",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://devpost.com/software/pocketdoc-react-native",
-        },
-        {
-          title: "YouTube",
-          icon: <Icons.youtube className="h-4 w-4" />,
-          href: "https://www.youtube.com/watch?v=XwFdn5Rmx68",
-        },
+        // {
+        //   title: "YouTube",
+        //   icon: <Icons.youtube className="h-4 w-4" />,
+        //   href: "https://www.youtube.com/watch?v=XwFdn5Rmx68",
+        // },
         {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/dillionverma/pocketdoc-react-native",
+          href: "https://github.com/gurshaan17/scrapconApp",
         },
       ],
     },
@@ -206,11 +231,11 @@ export const DATA = {
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/developer-week.jpg",
       links: [
-        {
-          title: "Github",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/cryptotrends/cryptotrends",
-        },
+        // {
+        //   title: "Github",
+        //   icon: <Icons.github className="h-4 w-4" />,
+        //   href: "https://github.com/cryptotrends/cryptotrends",
+        // },
       ],
     },
 
