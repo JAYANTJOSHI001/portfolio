@@ -96,6 +96,67 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Myriad",
+      href: "https://github.com/Jagjit0306/Myriad",
+      dates: "Mar 2025",
+      active: true,
+      description:
+        "An inclusive platform designed for specially-abled individuals, integrating AI-powered accessibility tools like speech-to-text, text-to-speech, Braille vibrations, and community-driven support.",
+      technologies: [
+        "Flutter",
+        "Firebase",
+        "Google Vision API",
+        "Google Gemini API",
+        "Google Maps API",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Jagjit0306/Myriad",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/Myriad.png",
+      video: "",
+    },
+    {
+      title: "Collab",
+      href: "https://collllab.netlify.app/",
+      dates: "Mar 2025",
+      active: true,
+      description:
+        "A real-time collaborative coding platform with live code editing, GitHub integration, version control, and instant synchronization using WebSockets.",
+      technologies: [
+        "Next.js",
+        "React.js",
+        "TypeScript",
+        "Node.js",
+        "MongoDB",
+        "Socket.IO",
+        "Tailwind CSS",
+        "Framer Motion",
+      ],
+      links: [
+        {
+          type: "Medium",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://medium.com/@jayantjoshi0001/what-if-vs-code-was-multiplayer-9d2cf85a536a",
+        },
+        {
+          type: "Website",
+          href: "https://collllab.netlify.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/JAYANTJOSHI001/collab-code",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/Collab.png",
+      video: "",
+    },    
+    {
       title: "Deekode",
       href: "https://deekode.netlify.app/",
       dates: "Dec 2024 - Jan 2025",
