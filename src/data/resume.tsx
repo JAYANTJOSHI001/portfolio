@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Crafting Solutions, One Line of Code at a Time.",
   summary:
-    "Ever since I discovered my knack for creativity and problem-solving, technology became my playground. Pursuing my B.Tech at NIT Jalandhar in Chemical Engineering gave me the foundation to blend analytical thinking with technical expertise. I started as a UI/UX designer, then ventured into frontend development, and now I’m diving into the world of full stack development. I love transforming concepts into impactful projects—whether it’s crafting platforms like Resourcify for educators or optimizing systems during my SDE internship at IRoots. I even explored Machine Learning for a challenging project because, well, curiosity fuels me! When I’m not coding, you’ll find me sketching design ideas or indulging in my love for exploring new technologies. For me, life is all about balancing innovation, curiosity, and a touch of creativity!",
+    "**Curiosity, creativity, and code** – that's the triad that fuels my journey. As a B.Tech student at **NIT Jalandhar**, I've turned my passion for problem-solving into impactful, real-world tech solutions. Starting out as a **UI/UX designer**, I evolved into a **frontend developer** and now thrive in **full stack development**—building platforms like Resourcify to empower educators and enhancing performance systems during my SDE internship at iRoots. My drive to explore led me into the realm of **Machine Learning**, pushing the boundaries of what I could build. Whether I'm prototyping new ideas, optimizing user experiences, or scaling full-stack applications, I believe in merging **design thinking** with **engineering precision**. Making it to the Top 100 in the **Google Solution Challenge 2025** affirmed my belief in tech as a force for good—and I'm just getting started. Off the screen, you'll catch me sketching, ideating, or diving into the next big thing in tech. For me, it's about creating with purpose, learning endlessly, and leaving a meaningful mark through innovation.",
   avatarUrl: "/me.png",
   skills: [
     "React",
@@ -114,6 +114,16 @@ export const DATA = {
           type: "Source",
           href: "https://github.com/Jagjit0306/Myriad",
           icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "APK",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://github.com/Jagjit0306/Myriad/releases/tag/v0.1.0",
+        },
+        {
+          type: "YouTube",
+          icon: <Icons.youtube className="h-4 w-4" />,
+          href: "https://www.youtube.com/watch?v=6TVBvX6TG5s",
         },
       ],
       image: "/Myriad.png",
@@ -241,11 +251,42 @@ export const DATA = {
   ],
   hackathons: [
     {
+      title: "Top 100 in Google Solution Challenge",
+      dates: "Jan 06th - July 2025",
+      location: "Online",
+      description:"An Adaptive Accessibility App for Specially Abled Individuals.",
+      image:
+        "/gsc.png",
+      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+      links: [
+        // {
+        //   title: "Medium Article",
+        //   icon: <Icons.globe className="h-4 w-4" />,
+        //   href: "https://medium.com/make-school/the-winners-of-make-schools-student-app-competition-2017-a6b0e72f190a",
+        // },
+        {
+          title: "APK",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://github.com/Jagjit0306/Myriad/releases/tag/v0.1.0",
+        },
+        {
+          title: "YouTube",
+          icon: <Icons.youtube className="h-4 w-4" />,
+          href: "https://www.youtube.com/watch?v=6TVBvX6TG5s",
+        },
+        {
+          title: "Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/Jagjit0306/Myriad",
+        },
+      ],
+    },
+    {
       title: "HackTU",
       dates: "Feb 08rd - 09th, 2025",
       location: "Patiala, Punjab, India",
       description:
-        "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
+        "An app for scrap vendors.",
       image:
         "/889.webp",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
