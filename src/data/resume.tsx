@@ -16,7 +16,12 @@ export const DATA = {
     "React",
     "Next.js",
     "Typescript",
-    "TailwindCSS",
+    "JavaScript",
+    "Flutter",
+    "Tailwind CSS",
+    "Firebase",
+    "React Native",
+    "Express.js",
     "Node.js",
     "Python",
     "Go",
@@ -49,6 +54,13 @@ export const DATA = {
         name: "X",
         url: "https://x.com/JayantJoshi_",
         icon: Icons.x,
+
+        navbar: true,
+      },
+      Behance: {
+        name: "Behance",
+        url: "https://www.behance.net/jayantjoshi_",
+        icon: Icons.behance,
 
         navbar: true,
       },
