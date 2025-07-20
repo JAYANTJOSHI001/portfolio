@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Crafting Solutions, One Line of Code at a Time.",
   summary:
-    "**Curiosity, creativity, and code** – that's the triad that fuels my journey. As a B.Tech student at **NIT Jalandhar**, I've turned my passion for problem-solving into impactful, real-world tech solutions. Starting out as a **UI/UX designer**, I evolved into a **frontend developer** and now thrive in **full stack development**—building platforms like Resourcify to empower educators and enhancing performance systems during my SDE internship at iRoots. My drive to explore led me into the realm of **Machine Learning**, pushing the boundaries of what I could build. Whether I'm prototyping new ideas, optimizing user experiences, or scaling full-stack applications, I believe in merging **design thinking** with **engineering precision**. Making it to the Top 100 in the **Google Solution Challenge 2025** affirmed my belief in tech as a force for good—and I'm just getting started. Off the screen, you'll catch me sketching, ideating, or diving into the next big thing in tech. For me, it's about creating with purpose, learning endlessly, and leaving a meaningful mark through innovation.",
+    "**Curiosity, creativity, and code** – that's the triad that fuels my journey. As a **B.Tech student at NIT Jalandhar**, I've turned my passion for problem-solving into **impactful, real-world tech solutions**. Starting out as a **UI/UX designer**, I evolved into a **frontend developer** and now thrive in **full stack development**—building platforms like Resourcify to empower educators and enhancing performance systems during my **SDE internship at iRoots**. My drive to explore and ask 'why' has naturally led me into the realms of **Machine Learning** and **Research**, where I aim to contribute to foundational knowledge. Whether I'm prototyping new ideas, optimizing user experiences, or scaling full-stack applications, I believe in merging **design thinking** with **engineering precision**. Making it to the **Top 100 in the Google Solution Challenge 2025** affirmed my belief in tech as a force for good—and I'm just getting started. Off the screen, you'll catch me sketching, ideating, or diving into the next big thing in tech. For me, it's about **creating with purpose, learning endlessly, and leaving a meaningful mark through innovation**.",
   avatarUrl: "/me.png",
   skills: [
     "React",
@@ -261,6 +261,16 @@ export const DATA = {
       video: "",
     },
   ],
+  research: [
+    {
+      school: "Heart Hypertrophy Detection using Machine Learning",
+      href: "https://www.nitj.ac.in/",
+      degree: "Dr BR Ambedkar National Institute of Technology, Jalandhar",
+      logoUrl: "/heart.jpg",
+      start: "June 2025",
+      end: "July 2025",
+    },
+  ], 
   hackathons: [
     {
       title: "Top 100 in Google Solution Challenge",
